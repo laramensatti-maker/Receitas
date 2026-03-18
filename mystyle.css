@@ -1,0 +1,15 @@
+div{ /* para centralizar a div*/
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.card img{
+    width:100vh;
+}
+
+h1{
+    color:blueviolet
+
+}
