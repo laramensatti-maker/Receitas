@@ -1,0 +1,45 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="form.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h1>Cadastro</h1>
+
+        
+        <form id="form">
+
+            <label for="titulo">Receita:</label><br>
+            <input type="text" id="titulo" required><br>
+
+            <label>Tempo de preparo:</label><br>
+            <input type="text" id="tempo" required><br>
+
+            <label>Ingredientes:</label><br>
+            <textarea id="ingredientes" required></textarea>
+
+            <label>Modo de Preparo:</label><br>
+            <textarea id="modo" required></textarea>
+
+            <label>Imagem:</label><br>
+            <input type="url" id="link" placeholder="URL da imagem" required><br>
+
+            <div class="criar">
+                <input type="submit" value="Criar">
+            </div>
+
+        </form>
+    </div>
+    <div id="colecao"></div> 
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
